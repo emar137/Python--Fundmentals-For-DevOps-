@@ -145,4 +145,16 @@ print(f'CPU Usage: {cpu_percent}%')
 print(f'Memory Usage: {memory_info.percent}%')
 ```
 
+Python Notes
 
+1-**Interpreted Language**: Java  Souce code ,we compile it For Example in java based application run command `maven compile` 
+
+purpose: Check syntax error in The source code if There it will give you compilation  error 
+
+In Python: we don’t need to compile our souce code separatly
+
+source code we run it directly  and it will be interpreted at runtime 
+
+syntax of souce code will be checked at runtime 
+
+Python for scripting and automation is much easier than shell scripting why because it has a lot of pre written code which are libraries or pkgs could the Same task for you easily. You will not need to write everything from scratch
