@@ -14,6 +14,15 @@ file = open('myfile.txt', 'r')
 
 # Opening a file in write mode
 file = open('myfile.txt', 'w')
+##
+#If the file already exists, it will be emptied (deleted) immediately.
+
+#Then anything you write() will be added from the beginning.
+
+#If the file does not exist, it will be created.
+#Use "w" mode only when you’re sure you want to replace the whole file.
+
+
 
 # Opening a file in append mode
 file = open('myfile.txt', 'a')
