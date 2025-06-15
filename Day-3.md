@@ -32,8 +32,8 @@ content = file.read()
 
 # Reading one line at a time
 line = file.readline()
-It reads the current line (starting from where the cursor is).
-After reading, it moves the cursor to the start of the next line.
+#It reads the current line (starting from where the cursor is).
+#After reading, it moves the cursor to the start of the next line.
 # Reading all lines into a list
 lines = file.readlines()
 ```
