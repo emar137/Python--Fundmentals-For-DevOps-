@@ -50,8 +50,13 @@ After opening a file in write mode, you can write to it using the `write()` meth
 
 ```python
 file.write("Hello, World!\n")
-```
+##There's no need to store the result of write() in a variable.
 
+The write() method returns the number of characters written, but that's usually not important.
+
+
+```
+#
 #### 4. Appending to Files
 
 Opening a file in append mode allows you to add content to the end of the file.
